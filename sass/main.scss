@@ -39,9 +39,11 @@ nav{
     transition: background-color .6s;
     .nav-link,
     .navbar-brand,
+    .navbar-brand:visited,
     i{
         margin: 5px;
         color:$white;
+        text-decoration: none;
     }
     .nav-link:hover,
     .navbar-brand:hover{

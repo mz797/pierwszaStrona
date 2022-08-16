@@ -124,9 +124,11 @@ nav {
 }
 nav .nav-link,
 nav .navbar-brand,
+nav .navbar-brand:visited,
 nav i {
   margin: 5px;
   color: #fff;
+  text-decoration: none;
 }
 nav .nav-link:hover,
 nav .navbar-brand:hover {
